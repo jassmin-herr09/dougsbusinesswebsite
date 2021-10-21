@@ -82,8 +82,29 @@ a:hover{
   
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 1.2rem;
     color:white;
 }
 
+.navbar-toggler {
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: #fff;
+}
+
+.navbar-toggler span + span {
+ margin-top: 4px;
+ width: 22px;
+}
+
+.navbar-toggler span + span + span {
+    width: 22px;
+}
